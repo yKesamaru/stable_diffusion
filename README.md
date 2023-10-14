@@ -2,11 +2,12 @@
 
 ## はじめに
 stable diffusionローカル環境構築備忘録です。
+1111を使用します。
 この分野は情報の更新が速く、自分の環境にfitした情報がなかなか見つかりませんでした。
 Ubuntu 20.04.6 LTSにおけるstable diffusion環境を構築する手順を記します。
 2023年10月14日時点での情報であることに注意してください。
 
-![](assets/eye_catch.png)
+![](https://raw.githubusercontent.com/yKesamaru/stable_diffusion/master/assets/eye_catch.png)
 
 ## 環境
 ```bash
@@ -68,9 +69,6 @@ sudo apt install -y \
 
 # その他のパッケージをインストール
 sudo apt install -y \
-  wget \
-  git \
-  python3 \
   python3-venv \
   libgl1 \
   libglib2.0-0
@@ -144,26 +142,26 @@ bash webui.sh
 ## 実行結果
 
 
-![](assets/2023-10-14-12-08-19.png)
+![](https://raw.githubusercontent.com/yKesamaru/stable_diffusion/master/assets/2023-10-14-12-08-19.png)
 
-![](assets/2023-10-14-12-14-04.png)
+![](https://raw.githubusercontent.com/yKesamaru/stable_diffusion/master/assets/2023-10-14-12-14-04.png)
 
 `1 girl`で作成された画像
 
-![](assets/2023-10-14-12-15-58.png)
+![](https://raw.githubusercontent.com/yKesamaru/stable_diffusion/master/assets/2023-10-14-12-15-58.png)
 
 なにこれこわい。
 
 もう一度実行
 
-![](assets/2023-10-14-12-26-27.png)
+![](https://raw.githubusercontent.com/yKesamaru/stable_diffusion/master/assets/2023-10-14-12-26-27.png)
 
 なにこれこわすぎるでしょ。完全に心霊写真です。
 想定してたのと違う。
 
 もう一度実行。
 
-![](assets/2023-10-14-12-28-22.png)
+![](https://raw.githubusercontent.com/yKesamaru/stable_diffusion/master/assets/2023-10-14-12-28-22.png)
 
 …。
 
